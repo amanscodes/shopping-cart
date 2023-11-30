@@ -66,7 +66,7 @@ function App() {
   
   return (
     <div>
-    <Nav cart={cart} setCart={setCart}/>
+   <Nav cart={cart} setCart={setCart}/>
       <h1 className='heading'>Shopaholic's</h1>
       <div className="productList">
       {productList.map((pd) => (

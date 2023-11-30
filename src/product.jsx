@@ -8,7 +8,6 @@ function Product({product,cart,setCart}){
     return<>
     <div className="product-container">
 <img className="product-poster" src={product.poster}/>
-
 <h3 className="name">{product.name}</h3>
 <div className="both">
 <p>{product.rating}</p>
